@@ -1,0 +1,30 @@
+html {
+    font-size: 8px;
+}
+body {
+    font-size: 8px;
+}
+
+p {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 24pt;
+}
+
+
+p::before {
+    content: "<";
+    color: green;
+}
+
+p::after {
+    content: ">";
+    color: green;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a[href^="https://"] {
+    color: green;
+}
